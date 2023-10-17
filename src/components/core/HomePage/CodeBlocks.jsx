@@ -3,6 +3,7 @@ import React from 'react'
 import CTAButton from './Button'
 import { FaArrowRight } from "react-icons/fa";
 import { TypeAnimation } from 'react-type-animation';
+import './CodeBlocks.css'
 
 
 
@@ -38,10 +39,11 @@ const CodeBlocks = (
 
 
             {/* section 2 */}
-            <div className='flex h-fit text-[15px] w-[100%] py-4 lg:w-[500px]'>
+            <div className={`flex h-fit text-[15px] w-[100%] py-4 lg:w-[500px] linear-gradient hover:scale-95 transition-all 1s ease-linear`} style={backgroundGradient} >
                 {/* Bg background */}
+                
 
-                <div className='text-center flex flex-col w-[10%] text-richblack-400 font-inter font-bold'>
+                <div className='text-center flex flex-col w-[10%] text-richblack-400 font-inter font-bold  border-richblack-400 '>
                     <p>1</p>
                     <p>2</p>
                     <p>3</p>
