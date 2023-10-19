@@ -60,7 +60,7 @@ const TimelineSection = () => {
                 {/* rightt box */}
                 <div className="relative shadow-blue-200">
                     <img 
-                    src={timelineImage} alt="Timeline Image" 
+                    src={timelineImage} alt="TimelineImage" 
 
                     className='shadow-white object-cover h-fit '
                     />
